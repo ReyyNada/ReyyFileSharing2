@@ -49,7 +49,7 @@ class Bot(Client):
                     f"Silakan periksa kembali var FORCE_SUB_CHANNEL1 dan Pastikan Bot anda Admin di Channel dengan izin link invite Pengguna melalui link undangan, Subs Channel Saat Ini: {FORCE_SUB_CHANNEL1}"
                 )
                 self.LOGGER(__name__).info(
-                    "\nBot Berhenti. Gabung Group https://t.me/pantekyks untuk Bantuan"
+                    "\nBot Berhenti. Gabung Group https://t.me/suhersupport untuk Bantuan"
                 )
                 sys.exit()
         if FORCE_SUB_CHANNEL2:
